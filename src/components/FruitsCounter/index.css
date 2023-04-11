@@ -1,0 +1,52 @@
+.main-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fruits-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 40px;
+}
+
+.fruits-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .fruits-details-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.fruit {
+  width: 150px;
+  height: 150px;
+}
+.count {
+  color: #ffd569;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  width: 80px;
+  margin-top: 20px;
+}
